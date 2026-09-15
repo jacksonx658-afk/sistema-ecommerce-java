@@ -31,5 +31,4 @@ public class ProdutoModelo {
     @NotNull(message = "A quantidade em estoque é obrigatória")
     @Min(value = 0, message = "O estoque não pode ser negativo")
     private Integer quantidadeEstoque;
-
     }
